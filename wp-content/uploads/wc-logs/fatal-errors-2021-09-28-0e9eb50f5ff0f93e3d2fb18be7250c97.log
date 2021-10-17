@@ -1,0 +1,8 @@
+2021-09-28T07:47:21+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_get_loop_prop(), 0 passed in E:\Program\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\woocommerce\loop\loop-start.php on line 22 and at least 1 expected in E:\Program\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php:219
+Stack trace:
+#0 E:\Program\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\woocommerce\loop\loop-start.php(22): wc_get_loop_prop()
+#1 E:\Program\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('E:\\Program\\xamp...')
+#2 E:\Program\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1123): wc_get_template('loop/loop-start...')
+#3 E:\Program\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(649): woocommerce_product_loop_start()
+#4 E: in E:\Program\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 219
+

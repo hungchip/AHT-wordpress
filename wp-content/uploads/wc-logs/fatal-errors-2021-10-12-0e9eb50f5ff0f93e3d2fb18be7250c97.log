@@ -1,0 +1,82 @@
+2021-10-12T02:55:42+00:00 CRITICAL Uncaught Error: Class 'Hung_Widget' not found in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php:61
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(115): WP_Widget_Factory->register('Hung_Widget')
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\plugins\hc-plugin\classes\widget-main-banner.php(8): register_widget('Hung_Widget')
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): create_new_widget('')
+#3 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(336): WP_Hook->apply_filters(NULL, Array)
+#4 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(1809): do_action('widgets_init')
+#6 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): wp_widgets_init('')
+#7 D:\setup\xampp\htdocs\AHT\hoc in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php on line 61
+
+2021-10-12T02:56:22+00:00 CRITICAL Uncaught Error: Class 'Hung_Widget' not found in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php:61
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(115): WP_Widget_Factory->register('Hung_Widget')
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\plugins\hc-plugin\hc-plugin.php(24): register_widget('Hung_Widget')
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): create_new_widget('')
+#3 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(336): WP_Hook->apply_filters(NULL, Array)
+#4 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(1809): do_action('widgets_init')
+#6 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): wp_widgets_init('')
+#7 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordp in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php on line 61
+
+2021-10-12T10:13:13+00:00 CRITICAL Uncaught Error: Class 'ClassHeader' not found in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\header.php:46
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\template.php(770): require_once()
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\template.php(716): load_template('D:\\setup\\xampp\\...', true, Array)
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\woocommerce\single-product.php(22): get_header('shop')
+#4 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\template-loader.php(106): include('D:\\setup\\xampp\\...')
+#5 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-blog-header.php(19): require_once('D:\\setup\\xampp\\...')
+#6 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\index.php(17): require('D:\\setup\\xampp\\...')
+#7 {main}
+  thrown in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\header.php on line 46
+
+2021-10-12T10:13:26+00:00 CRITICAL Uncaught Error: Class 'ClassHeader' not found in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\header.php:46
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\template.php(770): require_once()
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\template.php(716): load_template('D:\\setup\\xampp\\...', true, Array)
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\404.php(10): get_header()
+#4 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\template-loader.php(106): include('D:\\setup\\xampp\\...')
+#5 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-blog-header.php(19): require_once('D:\\setup\\xampp\\...')
+#6 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\index.php(17): require('D:\\setup\\xampp\\...')
+#7 {main}
+  thrown in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\header.php on line 46
+
+2021-10-12T10:13:44+00:00 CRITICAL Uncaught Error: Class 'ClassHeader' not found in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\header.php:46
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\template.php(770): require_once()
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\template.php(716): load_template('D:\\setup\\xampp\\...', true, Array)
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\index.php(17): get_header()
+#4 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\template-loader.php(106): include('D:\\setup\\xampp\\...')
+#5 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-blog-header.php(19): require_once('D:\\setup\\xampp\\...')
+#6 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\index.php(17): require('D:\\setup\\xampp\\...')
+#7 {main}
+  thrown in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\header.php on line 46
+
+2021-10-12T10:13:53+00:00 CRITICAL Uncaught Error: Class 'ClassHeader' not found in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\header.php:46
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\template.php(770): require_once()
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\template.php(716): load_template('D:\\setup\\xampp\\...', true, Array)
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\index.php(17): get_header()
+#4 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\template-loader.php(106): include('D:\\setup\\xampp\\...')
+#5 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-blog-header.php(19): require_once('D:\\setup\\xampp\\...')
+#6 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\index.php(17): require('D:\\setup\\xampp\\...')
+#7 {main}
+  thrown in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\header.php on line 46
+
+2021-10-12T10:14:21+00:00 CRITICAL Uncaught Error: Class 'ClassHeader' not found in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\header.php:46
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\template.php(770): require_once()
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\template.php(716): load_template('D:\\setup\\xampp\\...', true, Array)
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\singular.php(12): get_header()
+#4 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\template-loader.php(106): include('D:\\setup\\xampp\\...')
+#5 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-blog-header.php(19): require_once('D:\\setup\\xampp\\...')
+#6 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\index.php(17): require('D:\\setup\\xampp\\...')
+#7 {main}
+  thrown in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\header.php on line 46
+

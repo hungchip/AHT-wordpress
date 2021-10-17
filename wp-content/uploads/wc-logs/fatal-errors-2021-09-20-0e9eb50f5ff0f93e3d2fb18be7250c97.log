@@ -1,0 +1,6 @@
+2021-09-20T02:34:44+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in E:\Program\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\Requests\Transport\cURL.php on line 483
+
+2021-09-20T02:42:26+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in E:\Program\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\Requests\Transport\cURL.php on line 164
+
+2021-09-20T02:42:26+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in E:\Program\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\plugins\woocommerce-ajax-filters\includes\custom_post.php on line 304
+

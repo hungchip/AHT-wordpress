@@ -1,0 +1,16 @@
+2021-09-23T01:44:45+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in E:\Program\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\Requests\Transport\cURL.php on line 458
+
+2021-09-23T08:02:03+00:00 CRITICAL syntax error, unexpected '/' in E:\Program\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\functions.php on line 814
+
+2021-09-23T08:02:24+00:00 CRITICAL syntax error, unexpected '/' in E:\Program\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\functions.php on line 814
+
+2021-09-23T08:03:24+00:00 CRITICAL syntax error, unexpected '/' in E:\Program\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\functions.php on line 814
+
+2021-09-23T08:04:03+00:00 CRITICAL syntax error, unexpected '/' in E:\Program\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\functions.php on line 814
+
+2021-09-23T09:54:13+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in E:\Program\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\index.php on line 26
+
+2021-09-23T10:16:36+00:00 CRITICAL syntax error, unexpected '}' in E:\Program\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\functions.php on line 833
+
+2021-09-23T10:16:37+00:00 CRITICAL syntax error, unexpected '}' in E:\Program\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\functions.php on line 833
+

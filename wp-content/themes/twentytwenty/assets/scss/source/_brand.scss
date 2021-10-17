@@ -1,0 +1,20 @@
+.brand {
+    padding: 9px 0 0 0;
+    margin-bottom: 5px;
+    .col-2 {
+        display: flex;
+        align-items: center;
+    }
+    .col-inner {
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 0;
+        img {
+            opacity: .3;
+            transition: all ease-in-out .4s;
+        }
+        &:hover img {
+            opacity: 1;
+        }
+    }
+}

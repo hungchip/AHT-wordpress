@@ -1,0 +1,52 @@
+2021-10-11T02:18:46+00:00 CRITICAL Uncaught Error: Call to a member function get_children() on boolean in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\index.php:69
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\template-loader.php(106): include()
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-blog-header.php(19): require_once('D:\\setup\\xampp\\...')
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\index.php(17): require('D:\\setup\\xampp\\...')
+#3 {main}
+  thrown in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\index.php on line 69
+
+2021-10-11T02:20:49+00:00 CRITICAL Uncaught Error: Call to a member function get_children() on boolean in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\index.php:71
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\template-loader.php(106): include()
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-blog-header.php(19): require_once('D:\\setup\\xampp\\...')
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\index.php(17): require('D:\\setup\\xampp\\...')
+#3 {main}
+  thrown in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\index.php on line 71
+
+2021-10-11T02:26:04+00:00 CRITICAL syntax error, unexpected ''field'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\index.php on line 50
+
+2021-10-11T02:26:15+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\index.php:59
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\template-loader.php(106): include()
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-blog-header.php(19): require_once('D:\\setup\\xampp\\...')
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\index.php(17): require('D:\\setup\\xampp\\...')
+#3 {main}
+  thrown in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\index.php on line 59
+
+2021-10-11T02:26:56+00:00 CRITICAL Uncaught Error: Call to a member function get_children() on boolean in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\index.php:70
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\template-loader.php(106): include()
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-blog-header.php(19): require_once('D:\\setup\\xampp\\...')
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\index.php(17): require('D:\\setup\\xampp\\...')
+#3 {main}
+  thrown in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\index.php on line 70
+
+2021-10-11T02:40:44+00:00 CRITICAL Uncaught Error: Call to a member function get_children() on boolean in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\index.php:60
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\template-loader.php(106): include()
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-blog-header.php(19): require_once('D:\\setup\\xampp\\...')
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\index.php(17): require('D:\\setup\\xampp\\...')
+#3 {main}
+  thrown in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\index.php on line 60
+
+2021-10-11T02:41:26+00:00 CRITICAL Uncaught Error: Call to a member function get_children() on boolean in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\index.php:60
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\template-loader.php(106): include()
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-blog-header.php(19): require_once('D:\\setup\\xampp\\...')
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\index.php(17): require('D:\\setup\\xampp\\...')
+#3 {main}
+  thrown in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\index.php on line 60
+
+2021-10-11T02:44:31+00:00 CRITICAL syntax error, unexpected '?>', expecting variable (T_VARIABLE) or '{' or '$' in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\themes\twentytwenty\index.php on line 59
+

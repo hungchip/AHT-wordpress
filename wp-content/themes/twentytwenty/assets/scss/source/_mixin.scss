@@ -1,0 +1,57 @@
+.actions .cart-action>* {
+    font-family: $font-fira;
+    // color: red;
+}
+
+form.woocommerce-cart-form {
+    .input-text.hc-input,
+    #coupon_code,
+    .button.hc-input {
+        font-size: 14px;
+        padding: 10px 20px;
+        font-family: $font-fira;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    .button.hc-input {
+        background: $color-hover;
+    }
+}
+
+.cart-collaterals {
+    .hc-title {
+        font-size: 20px;
+    }
+}
+
+.hc-col-6 {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.hc-col-6.hc-title {
+    font-size: 20px;
+    font-family: $font-fira;
+}
+
+p.hc-text {
+    label {
+        font-size: 14px;
+        font-family: $font-fira;
+    }
+}
+
+.button.hc-input,
+.input-text.hc-input {
+    font-size: 14px;
+    padding: 10px 20px;
+    font-family: $font-fira;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.button.hc-input {
+    background: $color-hover;
+}
