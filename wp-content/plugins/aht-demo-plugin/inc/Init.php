@@ -11,14 +11,19 @@ final class Init
             Base\Enqueue::class,
             Base\SettingsLinks::class,
             Base\BaseController::class,
+            // Widgets\IntroService::class,
+            // Widgets\LogoFooter::class,
+            // Widgets\MainBanner::class,
+            Custome\PostTypes\Medicine::class,
+            Custome\Taxonomies\TypeMedicine::class,
         ];
     }
 
     public static function register_services()
     {
         foreach (self::get_services() as $class_) {
-            // $service = self::instantiate($class_); tương tự
-            $service = new $class_();
+            $service = self::instantiate($class_); //tương tự
+            // $service = new $class_();
             if (method_exists($service, 'register')) {
                 $service->register(); 
             }

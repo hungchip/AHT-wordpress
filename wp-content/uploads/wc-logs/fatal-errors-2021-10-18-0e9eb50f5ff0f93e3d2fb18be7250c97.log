@@ -1,0 +1,235 @@
+2021-10-18T07:39:14+00:00 CRITICAL Uncaught Error: Class 'HC_Widget_Logo_footer' not found in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php:61
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(115): WP_Widget_Factory->register('HC_Widget_Logo_...')
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\plugins\hc-plugin\classes\widget-intro-service.php(23): register_widget('HC_Widget_Logo_...')
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): HC_Widget_Intro_Service->{closure}('')
+#3 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(336): WP_Hook->apply_filters(NULL, Array)
+#4 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(1809): do_action('widgets_init')
+#6 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): wp_widge in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php on line 61
+
+2021-10-18T08:08:28+00:00 CRITICAL Uncaught Error: Class 'IntroService' not found in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php:61
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(115): WP_Widget_Factory->register('IntroService')
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\plugins\aht-demo-plugin\inc\Widgets\IntroService.php(26): register_widget('IntroService')
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): Inc\Widgets\IntroService->Inc\Widgets\{closure}('')
+#3 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(336): WP_Hook->apply_filters('', Array)
+#4 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(1809): do_action('widgets_init')
+#6 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): wp_widgets_init( in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php on line 61
+
+2021-10-18T08:08:34+00:00 CRITICAL Uncaught Error: Class 'IntroService' not found in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php:61
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(115): WP_Widget_Factory->register('IntroService')
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\plugins\aht-demo-plugin\inc\Widgets\IntroService.php(26): register_widget('IntroService')
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): Inc\Widgets\IntroService->Inc\Widgets\{closure}('')
+#3 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(336): WP_Hook->apply_filters('', Array)
+#4 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(1809): do_action('widgets_init')
+#6 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): wp_widgets_init( in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php on line 61
+
+2021-10-18T08:09:56+00:00 CRITICAL Uncaught Error: Class 'IntroService' not found in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php:61
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(115): WP_Widget_Factory->register('IntroService')
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\plugins\aht-demo-plugin\inc\Widgets\IntroService.php(26): register_widget('IntroService')
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): Inc\Widgets\IntroService->Inc\Widgets\{closure}('')
+#3 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(336): WP_Hook->apply_filters('', Array)
+#4 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(1809): do_action('widgets_init')
+#6 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): wp_widgets_init( in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php on line 61
+
+2021-10-18T08:11:19+00:00 CRITICAL Uncaught Error: Class 'IntroService' not found in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php:61
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(115): WP_Widget_Factory->register('IntroService')
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\plugins\aht-demo-plugin\inc\Widgets\IntroService.php(26): register_widget('IntroService')
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): Inc\Widgets\IntroService->Inc\Widgets\{closure}('')
+#3 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(336): WP_Hook->apply_filters('', Array)
+#4 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(1809): do_action('widgets_init')
+#6 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): wp_widgets_init( in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php on line 61
+
+2021-10-18T08:13:20+00:00 CRITICAL Uncaught Error: Class 'IntroService' not found in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php:61
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(115): WP_Widget_Factory->register('IntroService')
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\plugins\aht-demo-plugin\inc\Widgets\IntroService.php(26): register_widget('IntroService')
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): Inc\Widgets\IntroService->Inc\Widgets\{closure}('')
+#3 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(336): WP_Hook->apply_filters('', Array)
+#4 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(1809): do_action('widgets_init')
+#6 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): wp_widgets_init( in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php on line 61
+
+2021-10-18T08:15:20+00:00 CRITICAL Uncaught Error: Class 'IntroService' not found in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php:61
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(115): WP_Widget_Factory->register('IntroService')
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\plugins\aht-demo-plugin\inc\Widgets\IntroService.php(26): register_widget('IntroService')
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): Inc\Widgets\IntroService->Inc\Widgets\{closure}('')
+#3 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(336): WP_Hook->apply_filters('', Array)
+#4 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(1809): do_action('widgets_init')
+#6 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): wp_widgets_init( in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php on line 61
+
+2021-10-18T08:15:33+00:00 CRITICAL Uncaught Error: Class 'IntroService' not found in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php:61
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(115): WP_Widget_Factory->register('IntroService')
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\plugins\aht-demo-plugin\inc\Widgets\IntroService.php(26): register_widget('IntroService')
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): Inc\Widgets\IntroService->Inc\Widgets\{closure}('')
+#3 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(336): WP_Hook->apply_filters('', Array)
+#4 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(1809): do_action('widgets_init')
+#6 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): wp_widgets_init( in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php on line 61
+
+2021-10-18T08:15:33+00:00 CRITICAL Uncaught Error: Class 'IntroService' not found in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php:61
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(115): WP_Widget_Factory->register('IntroService')
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\plugins\aht-demo-plugin\inc\Widgets\IntroService.php(26): register_widget('IntroService')
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): Inc\Widgets\IntroService->Inc\Widgets\{closure}('')
+#3 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(336): WP_Hook->apply_filters('', Array)
+#4 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(1809): do_action('widgets_init')
+#6 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): wp_widgets_init( in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php on line 61
+
+2021-10-18T08:16:02+00:00 CRITICAL Uncaught Error: Class 'IntroService' not found in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php:61
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(115): WP_Widget_Factory->register('IntroService')
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\plugins\aht-demo-plugin\inc\Widgets\IntroService.php(26): register_widget('IntroService')
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): Inc\Widgets\IntroService->Inc\Widgets\{closure}('')
+#3 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(336): WP_Hook->apply_filters('', Array)
+#4 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(1809): do_action('widgets_init')
+#6 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): wp_widgets_init( in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php on line 61
+
+2021-10-18T08:17:21+00:00 CRITICAL Uncaught Error: Class 'IntroService' not found in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php:61
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(115): WP_Widget_Factory->register('IntroService')
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\plugins\aht-demo-plugin\inc\Widgets\IntroService.php(26): register_widget('IntroService')
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): Inc\Widgets\IntroService->Inc\Widgets\{closure}('')
+#3 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(336): WP_Hook->apply_filters('', Array)
+#4 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(1809): do_action('widgets_init')
+#6 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): wp_widgets_init( in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php on line 61
+
+2021-10-18T08:25:42+00:00 CRITICAL Uncaught Error: Class 'LogoFooter' not found in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php:61
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(115): WP_Widget_Factory->register('LogoFooter')
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\plugins\aht-demo-plugin\inc\Widgets\LogoFooter.php(26): register_widget('LogoFooter')
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): Inc\Widgets\LogoFooter->Inc\Widgets\{closure}('')
+#3 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(336): WP_Hook->apply_filters('', Array)
+#4 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(1809): do_action('widgets_init')
+#6 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): wp_widgets_init('')
+#7 D:\ in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php on line 61
+
+2021-10-18T08:25:47+00:00 CRITICAL Uncaught Error: Class 'LogoFooter' not found in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php:61
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(115): WP_Widget_Factory->register('LogoFooter')
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\plugins\aht-demo-plugin\inc\Widgets\LogoFooter.php(26): register_widget('LogoFooter')
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): Inc\Widgets\LogoFooter->Inc\Widgets\{closure}('')
+#3 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(336): WP_Hook->apply_filters('', Array)
+#4 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(1809): do_action('widgets_init')
+#6 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): wp_widgets_init('')
+#7 D:\ in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php on line 61
+
+2021-10-18T08:27:43+00:00 CRITICAL Uncaught Error: Class 'LogoFooter' not found in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php:61
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(115): WP_Widget_Factory->register('LogoFooter')
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\plugins\aht-demo-plugin\inc\Widgets\LogoFooter.php(26): register_widget('LogoFooter')
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): Inc\Widgets\LogoFooter->Inc\Widgets\{closure}('')
+#3 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(336): WP_Hook->apply_filters('', Array)
+#4 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(1809): do_action('widgets_init')
+#6 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): wp_widgets_init('')
+#7 D:\ in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php on line 61
+
+2021-10-18T08:27:48+00:00 CRITICAL Uncaught Error: Class 'LogoFooter' not found in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php:61
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(115): WP_Widget_Factory->register('LogoFooter')
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\plugins\aht-demo-plugin\inc\Widgets\LogoFooter.php(26): register_widget('LogoFooter')
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): Inc\Widgets\LogoFooter->Inc\Widgets\{closure}('')
+#3 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(336): WP_Hook->apply_filters('', Array)
+#4 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(1809): do_action('widgets_init')
+#6 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): wp_widgets_init('')
+#7 D:\ in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php on line 61
+
+2021-10-18T08:29:19+00:00 CRITICAL Uncaught Error: Class 'IntroService' not found in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php:61
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(115): WP_Widget_Factory->register('IntroService')
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\plugins\aht-demo-plugin\inc\Widgets\IntroService.php(28): register_widget('IntroService')
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): Inc\Widgets\IntroService->Inc\Widgets\{closure}('')
+#3 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(336): WP_Hook->apply_filters('', Array)
+#4 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(1809): do_action('widgets_init')
+#6 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): wp_widgets_init( in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php on line 61
+
+2021-10-18T08:29:21+00:00 CRITICAL Uncaught Error: Class 'IntroService' not found in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php:61
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(115): WP_Widget_Factory->register('IntroService')
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\plugins\aht-demo-plugin\inc\Widgets\IntroService.php(28): register_widget('IntroService')
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): Inc\Widgets\IntroService->Inc\Widgets\{closure}('')
+#3 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(336): WP_Hook->apply_filters('', Array)
+#4 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(1809): do_action('widgets_init')
+#6 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): wp_widgets_init( in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php on line 61
+
+2021-10-18T08:29:23+00:00 CRITICAL Uncaught Error: Class 'IntroService' not found in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php:61
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(115): WP_Widget_Factory->register('IntroService')
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\plugins\aht-demo-plugin\inc\Widgets\IntroService.php(28): register_widget('IntroService')
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): Inc\Widgets\IntroService->Inc\Widgets\{closure}('')
+#3 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(336): WP_Hook->apply_filters('', Array)
+#4 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(1809): do_action('widgets_init')
+#6 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): wp_widgets_init( in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php on line 61
+
+2021-10-18T08:55:35+00:00 CRITICAL Uncaught Error: Class 'IntroService' not found in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php:61
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(115): WP_Widget_Factory->register('IntroService')
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\plugins\aht-demo-plugin\inc\Widgets\IntroService.php(26): register_widget('IntroService')
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): Inc\Widgets\IntroService->Inc\Widgets\{closure}('')
+#3 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(336): WP_Hook->apply_filters('', Array)
+#4 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(1809): do_action('widgets_init')
+#6 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): wp_widgets_init( in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php on line 61
+
+2021-10-18T09:00:49+00:00 CRITICAL Uncaught Error: Class 'LogoFooter' not found in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php:61
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(115): WP_Widget_Factory->register('LogoFooter')
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\plugins\aht-demo-plugin\inc\Widgets\LogoFooter.php(25): register_widget('LogoFooter')
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): Inc\Widgets\LogoFooter->Inc\Widgets\{closure}('')
+#3 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(336): WP_Hook->apply_filters(NULL, Array)
+#4 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(1809): do_action('widgets_init')
+#6 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): wp_widgets_init('')
+#7 D in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php on line 61
+
+2021-10-18T09:01:13+00:00 CRITICAL Uncaught Error: Class 'IntroService' not found in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php:61
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(115): WP_Widget_Factory->register('IntroService')
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\plugins\aht-demo-plugin\inc\Widgets\IntroService.php(29): register_widget('IntroService')
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): Inc\Widgets\IntroService->register_states_widget('')
+#3 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(336): WP_Hook->apply_filters('', Array)
+#4 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(1809): do_action('widgets_init')
+#6 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): wp_widgets_init in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php on line 61
+
+2021-10-18T09:05:14+00:00 CRITICAL Uncaught Error: Class 'IntroService' not found in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php:61
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(115): WP_Widget_Factory->register('IntroService')
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\plugins\aht-demo-plugin\inc\Widgets\IntroService.php(26): register_widget('IntroService')
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): Inc\Widgets\IntroService->Inc\Widgets\{closure}('')
+#3 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(336): WP_Hook->apply_filters('', Array)
+#4 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(1809): do_action('widgets_init')
+#6 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): wp_widgets_init( in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php on line 61
+
+2021-10-18T09:15:46+00:00 CRITICAL Uncaught Error: Class 'IntroService' not found in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php:61
+Stack trace:
+#0 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(115): WP_Widget_Factory->register('IntroService')
+#1 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-content\plugins\aht-demo-plugin\inc\Widgets\IntroService.php(26): register_widget('IntroService')
+#2 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): Inc\Widgets\IntroService->Inc\Widgets\{closure}('')
+#3 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(336): WP_Hook->apply_filters('', Array)
+#4 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\widgets.php(1809): do_action('widgets_init')
+#6 D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-hook.php(311): wp_widgets_init( in D:\setup\xampp\htdocs\AHT\hoc-wordpress\wordpress\wp-includes\class-wp-widget-factory.php on line 61
+

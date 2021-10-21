@@ -52,6 +52,7 @@ get_header();
                         'operator' => 'IN',
                     );
                 ?>
+                
                 <?php $args = array( 'post_type' => 'product','posts_per_page' => 8,'ignore_sticky_posts' => 1, 'tax_query' => $tax_query); ?>
                 <?php $getposts = new WP_query( $args);?>
                 <?php global $wp_query; $wp_query->in_the_loop = true; 
@@ -136,7 +137,7 @@ get_header();
                     <div class="col-4">
                         <div class="col-inner">
                             <div class="blog-img">
-                                <a href="<?php the_permalink(); ?>"><?php echo get_the_post_thumbnail( $post_id, 'full', array( 'class' =>'thumnail') ); ?></a>
+                                <a href="<?php the_permalink(); ?>"><?php echo get_the_post_thumbnail( $post, 'full', array( 'class' =>'thumnail') ); ?></a>
                             </div>
                             
                             <!-- <img src="images/blog3.jpg" alt=""> -->    

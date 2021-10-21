@@ -37,20 +37,32 @@ wp_body_open();
                 </div>
                 <div class="menu">
                     <?php
-wp_nav_menu(
-    array(
-        'theme_location' => 'cus-menu-header',
-        'container' => '',
-        'menu_id' => 'header-menu',
-        'menu_class' => 'cus-menu-header',
-    )
-
-);?>
+                        // wp_nav_menu(
+                        //     array(
+                        //         'theme_location' => 'cus-menu-header',
+                        //         'container' => '',
+                        //         'menu_id' => 'header-menu',
+                        //         'menu_class' => 'cus-menu-header',
+                        //     )
+                        // );
+                    ?>
+                        <div class="navbar-menu-res">
+                        <?php
+                            wp_nav_menu(
+                                array(
+                                    'theme_location' => 'cus-menu-header',
+                                    'container' => '',
+                                    'menu_id' => 'header-menu',
+                                    'menu_class' => 'cus-menu-header',
+                                )
+                            );
+                        ?>
+                        </div> 
                     <a class="shopping-cart" href="">
                         <ion-icon name="cart-outline"></ion-icon>
                         <span class="shopping-cart-amount"><?php echo WC()->cart->get_cart_contents_count(); ?></span>
                     </a>
-                    <a class="menu-icon" onclick="" href="">
+                    <a class="menu-icon">
                         <ion-icon name="menu-outline"></ion-icon>
                     </a>
                 </div>

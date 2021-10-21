@@ -859,6 +859,14 @@ function wpb_widgets_init()
         'before_widget' => '',
         'after_widget' => '',
     ));
+
+    //logo footer
+    register_sidebar(array(
+        'name' => 'LogoFooter',
+        'id' => 'custom-logo-footer',
+        'before_widget' => '',
+        'after_widget' => '',
+    ));
 }
 // kích hoạt các widget area
 add_action('widgets_init', 'wpb_widgets_init');
@@ -927,36 +935,7 @@ function add_type_attribute2($tag, $handle, $src)
     return $tag;
 }
 
-function tao_taxonomy()
-{
-    /* Biến $label chứa các tham số thiết lập tên hiển thị của Taxonomy
-     */
-    $labels = array(
-        "name" => "Các loại Thuốc",
-        "singular" => "Loại Thuốc",
-        "menu_name" => "Loại Thuốc",
-    );
 
-    /* Biến $args khai báo các tham số trong custom taxonomy cần tạo
-     */
-    $args = array(
-        "labels" => $labels,
-        "hierarchical" => true,
-        "public" => true,
-        "show_ui" => true,
-        "show_admin_column" => true,
-        "show_in_nav_menus" => true,
-        "show_tagcloud" => true,
-    );
-
-    /* Hàm register_taxonomy để khởi tạo taxonomy
-     */
-    register_taxonomy("loai-thuoc", "post", $args);
-
-}
-
-// Hook into the ‘init’ action
-add_action("init", "tao_taxonomy", 0);
 
 function gt_get_post_view()
 {

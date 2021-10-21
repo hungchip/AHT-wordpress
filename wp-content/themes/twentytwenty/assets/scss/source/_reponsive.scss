@@ -380,6 +380,18 @@
 }
 
 @media screen and (max-width: 600px) {
+    .menu {
+        &>.cus-menu-header {
+            display: none;
+        }
+    }
+    .navbar-menu-res {
+        transition: all ease-in-out .6s;
+        background: none;
+        position: absolute;
+        top: 80px;
+        width: 200px;
+    }
     .feature-item {
         .col-3 {
             width: 50%;

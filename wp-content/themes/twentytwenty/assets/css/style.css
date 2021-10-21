@@ -207,7 +207,8 @@ li {
   align-items: center;
   justify-content: center;
   color: #fff;
-  font-size: 25px; }
+  font-size: 25px;
+  margin-right: 10px; }
   .menu button {
     display: flex;
     align-items: center;
@@ -272,7 +273,7 @@ li {
     margin-top: 32px;
     margin-bottom: 70px; }
   .title-banner .discover {
-    padding: 15px 30px;
+    padding: 13px 25px;
     background-color: #333;
     color: #fff;
     font-weight: bold;
@@ -292,7 +293,8 @@ li {
     line-height: 40px; }
 
 .banner_top .social-item {
-  position: relative; }
+  position: relative;
+  line-height: 42px; }
   .banner_top .social-item a {
     color: #fff;
     opacity: .5;
@@ -332,13 +334,14 @@ li {
     font-family: "FiraSans", sans-serif;
     line-height: 28px; }
   .intro-service .intro {
-    padding: 110px 0 120px 0;
+    padding: 105px 0 120px 0;
     line-height: 48px; }
     .intro-service .intro .row {
       justify-content: center; }
     .intro-service .intro .intro-text {
       font-size: 34px;
-      font-weight: bold; }
+      font-weight: bold;
+      margin-top: 0; }
 
 .service .col-4 {
   border-left: 1px solid #efefef;
@@ -397,14 +400,14 @@ li {
 .banner-top .col-inner-text {
   margin-bottom: 32px; }
   .banner-top .col-inner-text .product-name {
-    margin-bottom: 14px;
+    margin-bottom: 13px;
     line-height: 36px; }
   .banner-top .col-inner-text .product-price {
-    line-height: 36px; }
+    line-height: 35px; }
 .banner-top .banner-right {
   margin-left: 15px; }
   .banner-top .banner-right .col-inner-text {
-    margin-bottom: 90px;
+    margin-bottom: 87px;
     font-weight: bold; }
   .banner-top .banner-right .product-name {
     margin-bottom: 25px;
@@ -434,7 +437,7 @@ li {
   transform: translateY(-50%);
   font-family: "FiraSans", sans-serif;
   text-align: center;
-  padding: 21px 0; }
+  padding: 23px 0; }
   .saleup-box .saleup-title {
     font-size: 18px;
     letter-spacing: 4px;
@@ -465,7 +468,7 @@ li {
   margin-right: 20px; }
   .banner-bottom .banner-middle .col-inner-text {
     line-height: 36px;
-    margin-bottom: 34px; }
+    margin-bottom: 26px; }
   .banner-bottom .banner-middle .product-name {
     margin-bottom: 14px; }
 .banner-bottom .banner-right {
@@ -481,8 +484,8 @@ li {
     font-size: 14px; }
     .banner-bottom .banner-right .col-inner-text .special-name {
       font-size: 48px;
-      margin-bottom: 20px;
-      line-height: 56px;
+      margin-bottom: 17px;
+      line-height: 61px;
       font-weight: bold; }
     .banner-bottom .banner-right .col-inner-text .special-info {
       color: #696969;
@@ -502,10 +505,12 @@ li {
     line-height: 0;
     margin-bottom: 83px; }
     .feature-item .title-box .title-box-content {
-      line-height: 28px;
+      line-height: 43px;
       font-weight: bold;
-      font-size: 56px; }
+      font-size: 56px;
+      letter-spacing: 0; }
     .feature-item .title-box .view-more {
+      transform: translateY(15px);
       text-transform: uppercase;
       font-size: 15px;
       font-weight: bold;
@@ -521,7 +526,7 @@ li {
           color: #fff; }
 
 .feature-item .col-inner {
-  margin-bottom: 23px; }
+  margin-bottom: 31px; }
 
 .col-inner {
   margin-bottom: 10px;
@@ -547,7 +552,13 @@ li {
       font-family: 'FiraSans', sans-serif;
       font-weight: bold;
       line-height: 36px;
-      letter-spacing: 1px; }
+      letter-spacing: 1px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      /* number of lines to show */
+      -webkit-box-orient: vertical; }
     .col-inner .item-text .item-price {
       font-family: 'CormorantGaramond', serif;
       color: #d6ba8d;
@@ -581,7 +592,7 @@ li {
   display: flex; }
   .box-action-right a {
     width: 33.33%;
-    padding: 13px;
+    padding: 9px;
     border-left: solid 1px #fff;
     color: #fff;
     background-color: #595959; }
@@ -589,7 +600,7 @@ li {
 .slider-item-product {
   display: flex;
   align-items: center;
-  height: 320px;
+  height: 312px;
   overflow: hidden; }
   .slider-item-product .slick-prev {
     left: 0px;
@@ -614,19 +625,22 @@ li {
   margin-bottom: -25px;
   font-size: 37px;
   letter-spacing: 1px; }
+  .blog-title h2 {
+    letter-spacing: 0;
+    font-size: 56px;
+    margin-top: -5px; }
 
 .blog {
   background: #faf9f9;
   padding: 108px 0 95px 0; }
   .blog .blog-img {
-    height: 180px;
     width: auto;
     display: flex;
     align-items: center;
     overflow: hidden;
     background: #fff; }
   .blog .blog-content {
-    padding: 20px 30px;
+    padding: 22px 35px;
     font-family: "FiraSans", sans-serif;
     font-size: 14px;
     color: #cccccc;
@@ -634,8 +648,9 @@ li {
     letter-spacing: 1px; }
 
 .blog-date {
-  margin-bottom: 18px;
-  line-height: 24px; }
+  margin-bottom: 17px;
+  line-height: 24px;
+  letter-spacing: 3px; }
 
 .blog-info {
   letter-spacing: 1px;
@@ -651,11 +666,14 @@ li {
   -webkit-line-clamp: 2;
   /* number of lines to show */
   -webkit-box-orient: vertical; }
+  .blog-info p {
+    line-height: 34px;
+    letter-spacing: 1px; }
 
 .blog-interactive {
   display: flex;
   border-top: solid 1px;
-  padding-top: 10px;
+  padding-top: 7px;
   line-height: 32px; }
   .blog-interactive > * {
     margin-right: 15px; }
@@ -747,8 +765,10 @@ li {
   text-transform: uppercase;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 65px 0 69px 0;
+  padding: 64px 0 69px 0;
   border-bottom: 1px solid #2b2b2b; }
+  .top-footer .cus-menu-footer {
+    transform: translate(4px, 4px); }
 
 .direct {
   align-items: center; }
@@ -769,10 +789,11 @@ li {
 .btn-subcribe {
   font-size: 14px;
   font-weight: bold;
-  margin-bottom: 9px;
+  margin-bottom: 3px;
   line-height: 24px;
   letter-spacing: 2px;
-  width: 165px; }
+  width: 165px;
+  transform: translateX(10px); }
   .btn-subcribe a {
     color: #ababab;
     font-family: "FiraSans", sans-serif; }
@@ -789,7 +810,7 @@ li {
   align-items: center;
   font-size: 14px;
   color: #626262;
-  padding: 24px 0 85px 0; }
+  padding: 28px 0 85px 0; }
   .bottom-footer .bottom-footer-right {
     font-size: 25px; }
   .bottom-footer .bottom-footer-left {
@@ -797,6 +818,8 @@ li {
     line-height: 28px;
     transform: translate(-5px, 15px);
     font-weight: bold; }
+    .bottom-footer .bottom-footer-left p {
+      line-height: 28px; }
 
 .footer {
   color: #ababab;
@@ -1055,6 +1078,16 @@ li {
   .intro-service .intro .col-6 {
     width: 100%; } }
 @media screen and (max-width: 600px) {
+  .menu > .cus-menu-header {
+    display: none; }
+
+  .navbar-menu-res {
+    transition: all ease-in-out .6s;
+    background: none;
+    position: absolute;
+    top: 80px;
+    width: 200px; }
+
   .feature-item .col-3 {
     width: 50%; }
 

@@ -17,7 +17,7 @@
             <div class="container">
                 <div class="top-footer">
                     <div class="logo">
-                        <?php echo get_custom_logo();?>
+                        <?php dynamic_sidebar('custom-logo-footer')?>
                     </div>
                     <?php wp_nav_menu( 
                         array( 
